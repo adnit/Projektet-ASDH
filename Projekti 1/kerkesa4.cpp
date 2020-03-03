@@ -36,7 +36,7 @@ int main()
   *p2s = {"Edon", 69, 'M'};
 
   shtyp(p2s);
-  delete p2s; */
+  delete p2s; 
 
-  return 0;
+  return 0; */
 }
