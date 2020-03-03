@@ -17,20 +17,15 @@ void shtyp(Personi *p)
 
 int main()
 {
-  Personi *p1s;
+  Personi p1 = {"Adnit", 18, 'M'};
+  Personi *p1ptr = &p1;
 
-  p1s->emri = "Adnit";
-  p1s->mosha = 18;
-  p1s->gjinia = 'M';
-
-  shtyp(p1s);
+  shtyp(p1ptr);
 
   Personi *p2s = new Personi;
-  p2s->emri = "Edon";
-  p2s->mosha = 69;
-  p2s->gjinia = 'M';
+  *p2s = {"Edon", 69, 'M'};
 
   shtyp(p2s);
-
+  delete p2s;
   return 0;
 }
