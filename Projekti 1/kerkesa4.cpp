@@ -17,7 +17,17 @@ void shtyp(Personi *p)
 
 int main()
 {
+
   Personi p1 = {"Adnit", 18, 'M'};
+  shtyp(&p1);
+
+  Personi *p2s = new Personi{"Edon", 69, 'M'};
+  shtyp(p2s);
+  delete p2s;
+
+  return 0;
+
+  /* Personi p1 = {"Adnit", 18, 'M'};
   Personi *p1ptr = &p1;
 
   shtyp(p1ptr);
@@ -26,6 +36,7 @@ int main()
   *p2s = {"Edon", 69, 'M'};
 
   shtyp(p2s);
-  delete p2s;
+  delete p2s; */
+
   return 0;
 }
