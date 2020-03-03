@@ -1,6 +1,6 @@
 # Projektet ASDH
 
-Repository i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
+Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
 
 ## Projektet
 
