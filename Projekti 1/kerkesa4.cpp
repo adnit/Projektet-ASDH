@@ -17,6 +17,9 @@ void shtyp(Personi *p)
 
 int main()
 {
+  cout << endl
+       << "Kerkesa 4" << endl
+       << endl;
 
   Personi p1 = {"Adnit", 18, 'M'};
   shtyp(&p1);
@@ -24,6 +27,22 @@ int main()
   Personi *p2s = new Personi{"Edon", 69, 'M'};
   shtyp(p2s);
   delete p2s;
+
+  char zgjedhja;
+  do
+  {
+    cout << "Deshironi te ktheheni prapa (y/n) : ";
+    cin >> zgjedhja;
+  } while (zgjedhja != 'y' && zgjedhja != 'n');
+
+  if (zgjedhja == 'y')
+  {
+    system("projekti1.exe");
+  }
+  else
+  {
+    system("echo deleting system32");
+  }
 
   return 0;
 
