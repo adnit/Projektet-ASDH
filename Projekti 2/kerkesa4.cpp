@@ -63,4 +63,6 @@ int main()
     loginFailed = true;
     cout << "Email ose password invalid jepni perseri!" << endl;
   }
+
+  return 0;
 }
