@@ -58,6 +58,7 @@ int main()
   d1heap->setGjeresia(22);
   d1heap->setLartesia(15);
   d1heap->shtyp();
+  delete d1heap;
 
   return 0;
 }
