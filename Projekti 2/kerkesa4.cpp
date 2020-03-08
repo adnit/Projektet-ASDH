@@ -35,11 +35,11 @@ int main()
   Shfrytzuesi *perdorusi4 = new Shfrytzuesi{"Useri", "Mbiemri", "admin", "admin"};
   Shfrytzuesi *perdorusi5 = new Shfrytzuesi{"Elon", "Musk", "tesla", "spacex"};
 
-  Shfrytzuesi *perdorustRegjistrum = new Shfrytzuesi[5]{*perdorusi1, *perdorusi2, *perdorusi3, *perdorusi4, *perdorusi5};
+  Shfrytzuesi **perdorustRegjistrum = new Shfrytzuesi *[5] { perdorusi1, perdorusi2, perdorusi3, perdorusi4, perdorusi5 };
 
   for (int i = 0; i < 5; i++)
   {
-    cout << perdorustRegjistrum[i].emriPlote() << endl;
+    cout << perdorustRegjistrum[i]->emriPlote() << endl;
   }
   cout << endl;
   bool loginFailed = true;
@@ -53,9 +53,9 @@ int main()
 
     for (int i = 0; i < 5; i++)
     {
-      if (perdorustRegjistrum[i].testLogin(email, pw))
+      if (perdorustRegjistrum[i]->testLogin(email, pw))
       {
-        cout << "Miresevini " << perdorustRegjistrum[i].emriPlote();
+        cout << "Miresevini " << perdorustRegjistrum[i]->emriPlote();
         loginFailed = false;
         return 0;
       }
