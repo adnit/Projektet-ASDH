@@ -4,6 +4,7 @@ Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
 
 ## Projektet
  [Projekti 1  - Pointerët, referencat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%201)
+ 
  [Projekti 2  - Klasat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%202)
 
 ## Changelog
