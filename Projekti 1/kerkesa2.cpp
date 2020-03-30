@@ -27,21 +27,7 @@ int main()
   cout << "Maksimumi i array: " << max << endl;
   cout << "Mesatarja e array: " << mes << endl;
 
-  char zgjedhja;
-  do
-  {
-    cout << "Deshironi te ktheheni prapa (y/n) : ";
-    cin >> zgjedhja;
-  } while (zgjedhja != 'y' && zgjedhja != 'n');
 
-  if (zgjedhja == 'y')
-  {
-    system("projekti1.exe");
-  }
-  else
-  {
-    system("echo deleting system32");
-  }
 
   return 0;
 }
@@ -52,7 +38,7 @@ void llogarit_ref(int *v, int n, int &min, int &max, double &mes)
   min = v[0];
   double shV = 0;
 
-  for (int i = 1; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
     if (*(v + i) > max)
     {
@@ -73,7 +59,7 @@ void llogarit_ptr(int *v, int n, int *min, int *max, double *mes)
   *min = v[0];
   double shV = 0;
 
-  for (int i = 1; i < n; i++)
+  for (int i = 0; i < n; i++)
   {
     if (*(v + i) > *max)
     {
