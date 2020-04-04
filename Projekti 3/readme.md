@@ -1,7 +1,5 @@
 # Projekti 3 -- Array listat
 
-[Zgjidhjet](https://leancoding.co/9YLK3U)
-
 ## Kërkesa 1
 
 Në main të deklarohet një `vector<int>` i zbrazët i cili mban numra të plotë.
