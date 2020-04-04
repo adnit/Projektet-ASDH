@@ -6,11 +6,7 @@ Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
  [Projekti 1  - Pointerët, referencat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%201)
  
  [Projekti 2  - Klasat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%202)
-<<<<<<< HEAD
 
-=======
- 
->>>>>>> 8d584d6901e66c648ece207d0b4dc91992fdb28c
  [Projekti 3 - ArrayListat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%203)
 ## Changelog
 
