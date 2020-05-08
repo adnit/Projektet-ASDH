@@ -8,6 +8,8 @@ Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
  [Projekti 2  - Klasat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%202)
 
  [Projekti 3 - ArrayListat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%203)
+ 
+ [Projekti 4 - Stack, Queue and LinkedLists](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%204)
 ## Changelog
 
 ## Deklarate
