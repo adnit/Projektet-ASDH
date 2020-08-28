@@ -1,6 +1,7 @@
 # Projektet ASDH
 
-Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.
+Repo i projekteve ne lenden Algoritme dhe Struktura te Dhenave.  
+Asistenti i lendes - **Edon Gashi** 
 
 ## Projektet
  [Projekti 1  - Pointerët, referencat](https://github.com/adnit/Projektet-ASDH/tree/master/Projekti%201)
